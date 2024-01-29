@@ -29,6 +29,10 @@ body {
   min-height: 100vh;
 }
 
+nav {
+  margin-bottom: 1rem;
+}
+
 nav div {
   display: flex;
   gap: 2rem;
