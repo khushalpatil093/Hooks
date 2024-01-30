@@ -9,6 +9,9 @@ const Navbar = () => {
             <Link to="/hookUseState">useState</Link>
             <Link to="/hookUseEffect">useEffect</Link>
             <Link to="/hookUseMemo">useMemo</Link>
+            <Link to="/hookUseCallback">useCallback</Link>
+            <Link to="/hookUseRef">useRef</Link>
+            <Link to="/hookUseContext">useContext</Link>
         </div>
     </nav>
   )
