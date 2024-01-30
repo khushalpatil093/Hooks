@@ -12,6 +12,7 @@ const Navbar = () => {
             <Link to="/hookUseCallback">useCallback</Link>
             <Link to="/hookUseRef">useRef</Link>
             <Link to="/hookUseContext">useContext</Link>
+            <Link to="/hookUseReducer">useReducer</Link>
         </div>
     </nav>
   )

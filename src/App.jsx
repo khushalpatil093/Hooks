@@ -9,6 +9,7 @@ import HookUseMemo from './AllHooks/HookUseMemo'
 import HookUseCallback from './AllHooks/HookUseCallback'
 import HookUseRef from './AllHooks/HookUseRef'
 import HookUseContext from './AllHooks/HookUseContext'
+import HookUseReducer from './AllHooks/HookUseReducer'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/hookUseCallback" element={<HookUseCallback/>}/>
         <Route path="/hookUseRef" element={<HookUseRef/>}/>
         <Route path="/hookUseContext" element={<HookUseContext/>}/>
+        <Route path="/hookUseReducer" element={<HookUseReducer/>} />
       </Routes>
     </BrowserRouter>
   )
